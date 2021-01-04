@@ -12,6 +12,13 @@ import {
 
 import useStyles from "./styles";
 
+const initialState = {
+  amount: "",
+  category: "",
+  type: "Income",
+  date: new Date(),
+};
+
 const Form = () => {
   const classes = useStyles();
 
